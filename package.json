@@ -1,7 +1,7 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple chat app",
   "main": "index.js",
   "dependencies": {
     "react-router-dom": "^5.2.1"
@@ -10,10 +10,10 @@
     "concurrently": "^6.2.1"
   },
   "scripts": {
- "client": "cd client && npm start",
- "server": "cd server && npm start",
- "dev": "concurrently \"npm run server\" \"npm run client\""
- },
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
   "author": "Samuel Jägestedt",
   "license": "ISC",
   "proxy": "http://localhost:5000"
