@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer {
+  padding: 0.8em;
+}
+
+.input {
+  /* display: flex; */
+  border-radius: 25px;
+  padding: 1em;
+  border: 1px solid #6a6a6a;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sendButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -40px;
+  /* margin: 5px 0 0 -40px; */
+  color: #fff !important;
+  text-decoration: none;
+  background: #007df6;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+}
